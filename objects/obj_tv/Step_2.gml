@@ -187,9 +187,6 @@ if global.gameplay == 0
 			case "V":
 				character = "VIGILANTA"
 				break;
-			case "G":
-				character = "GLADE"
-				break;
 			case "SP":
 				character = "PIZZELLE"
 				break;
