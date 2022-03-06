@@ -297,6 +297,7 @@
     {"id":{"name":"spr_grabbiehand_release","path":"sprites/spr_grabbiehand_release/spr_grabbiehand_release.yy",},"order":1,},
     {"id":{"name":"spr_grabbiehand_catch","path":"sprites/spr_grabbiehand_catch/spr_grabbiehand_catch.yy",},"order":2,},
     {"id":{"name":"spr_tv_cheesepep","path":"sprites/spr_tv_cheesepep/spr_tv_cheesepep.yy",},"order":9,},
+    {"id":{"name":"ancientP_2","path":"rooms/ancientP_2/ancientP_2.yy",},"order":2,},
     {"id":{"name":"spr_grabbiehand_fall","path":"sprites/spr_grabbiehand_fall/spr_grabbiehand_fall.yy",},"order":3,},
     {"id":{"name":"spr_grabbiehand_idle","path":"sprites/spr_grabbiehand_idle/spr_grabbiehand_idle.yy",},"order":4,},
     {"id":{"name":"spr_grabbiehand_dropspot","path":"sprites/spr_grabbiehand_dropspot/spr_grabbiehand_dropspot.yy",},"order":5,},
@@ -5555,6 +5556,7 @@
     {"roomId":{"name":"ancient_9","path":"rooms/ancient_9/ancient_9.yy",},},
     {"roomId":{"name":"cotton_2","path":"rooms/cotton_2/cotton_2.yy",},},
     {"roomId":{"name":"ancientP_1","path":"rooms/ancientP_1/ancientP_1.yy",},},
+    {"roomId":{"name":"ancientP_2","path":"rooms/ancientP_2/ancientP_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
