@@ -1,5 +1,5 @@
 // check version
-if real(gms_ini_game_read("game", "version")) > obj_gms.gameversion
+//if real(gms_ini_game_read("game", "version")) > obj_gms.gameversion
 {
 	if !debug
 	{
