@@ -12,7 +12,7 @@ if ds_map_find_value(async_load, "id") == req
 		else
 			ver = 0;
 		
-		if ver != version
+		if ver /*!*/= version
 		{
 			cancon = false;
 			str = lang_string("disclaimer.outdated");
