@@ -1,4 +1,4 @@
-# PizzaTowerOnline
+# Pizza Tower Onlinesh (Applemunch's branch)
 the entire pizza tower online / network? source code.
 this uses the leaked western v3 source code of pizza tower, so most of the vanilla code looks horrendous.
 
