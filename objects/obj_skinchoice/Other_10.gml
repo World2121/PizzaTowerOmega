@@ -190,6 +190,24 @@ switch sel[1]
 			["CRYSTALIZED", "Missed opportunity to make it transparent."],
 		];
 	break;
+
+//	case "M": // munch
+//		spr_palette = spr_munchpalette;
+//		spr_idle = spr_playerM_idle;
+//		selarray = [
+//			["MUNCH", "Fohorijenic."],
+//			["APPLE", "Get the fuck out, I'm playing Minecraft!"],
+//			["FRUITY LOOPS", "Patterns. Ever heard of en?"],
+//			["CLASSIC", "Where we're going, we don't need seatbelts."],
+//			["DREAMY", "You could say he came from his own world."],
+//			["WL4", "GameBoy Advanced Idiocy."],
+//			["ORANGE", "oranbge juic"]
+//		];
+//		if global.streamer
+//		{
+//			selarray[2][1] = "I hate music production software." // fl studio reference?
+//		}
+//		break;
 	
 	#region joke
 	
