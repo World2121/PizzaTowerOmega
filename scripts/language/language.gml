@@ -77,8 +77,8 @@ function lang_load(lang)
 		ds_map_add(global.langmap, "options.sound.machold", "OLD");
 		ds_map_add(global.langmap, "options.sound.machnew", "NEW");
 		ds_map_add(global.langmap, "options.sound.game", "MUSIC TYPE");
-		ds_map_add(global.langmap, "options.sound.normal", "NORMAL");
-		ds_map_add(global.langmap, "options.sound.castle", "MIDIS");
+		ds_map_add(global.langmap, "options.sound.normal", "TOWER");
+		ds_map_add(global.langmap, "options.sound.castle", "CASTLE");
 		
 		ds_map_add(global.langmap, "options.erase.text", "ARE YOU SURE?");
 		ds_map_add(global.langmap, "options.erase.no", "NO");
@@ -169,10 +169,7 @@ function lang_load(lang)
 		ds_map_add(global.langmap, "options.other.screenshader.desc", "Full screen shader effect.");
 		
 		// manual
-		if pt_online
-			ds_map_add(global.langmap, "manual.welcome", "Welcome to the Pizza Tower ONLINE manual!");
-		else
-			ds_map_add(global.langmap, "manual.welcome", "Welcome to the Pizza Tower Network manual!");
+		ds_map_add(global.langmap, "manual.welcome", "Welcome to the Pizza Tower OMEGA manual!");
 		
 		ds_map_add(global.langmap, "manual.controls", "Controls");
 		ds_map_add(global.langmap, "manual.controls.content", "You can see and change the controls in the options,\nbut there are extra controls exclusive to the mod:\n\n- T to open the chat\n- ENTER to begin typing and again to send a message\n- ESCAPE to exit the chat, if it's open");
@@ -236,7 +233,7 @@ function lang_load(lang)
 		ds_map_add(global.langmap, "editor.menu.savetitle", "Download Level");
 		ds_map_add(global.langmap, "editor.menu.online.official", "BROWSE");
 		ds_map_add(global.langmap, "editor.menu.online.featured", "FEATURED");
-		ds_map_add(global.langmap, "editor.menu.online.pto", "PTNETWORK");
+		ds_map_add(global.langmap, "editor.menu.online.pto", "PTOMEGA");
 		ds_map_add(global.langmap, "editor.menu.search.preid", "ID, ");
 		ds_map_add(global.langmap, "editor.menu.search.prelikes", " LIKES, ");
 		ds_map_add(global.langmap, "editor.menu.search.predislikes", " DISLIKES, ");
