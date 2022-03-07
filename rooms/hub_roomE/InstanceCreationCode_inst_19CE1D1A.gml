@@ -1,3 +1,3 @@
-level = "passa"
-targetRoom = ancientP_1
+level = "passage"
+targetRoom = Passage_1
 targetDoor = "A";

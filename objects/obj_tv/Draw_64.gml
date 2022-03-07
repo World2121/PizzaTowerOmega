@@ -35,6 +35,17 @@ draw_set_valign(fa_top);
 
 #region old hud
 
+
+if (global.combo != 0) && (global.combotime != 0) 
+{
+var combofont =  font_add_sprite_ext(spr_combo_font, "1234567890:", 1, 0)
+    draw_sprite(spr_comboman,0,580+global.combotime,48)
+    draw_sprite(spr_combotimer,0,640,64)
+    draw_set_font(combofont)
+    draw_text(576, 96, string_hash_to_newline(string_hash_to_newline(global.combo)))
+    draw_set_font(global.bigfont)
+}
+
 if global.gameplay == 0
 {
 	//Draw TV

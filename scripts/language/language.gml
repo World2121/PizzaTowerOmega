@@ -296,6 +296,7 @@ function lang_load(lang)
 		ds_map_add(global.langmap, "msg.level.dragonlair", "DRAGON LAIR");
 		ds_map_add(global.langmap, "msg.level.chateau", "PIZZASCARE");
 		ds_map_add(global.langmap, "msg.level.strongcold", "STRONGCOLD");
+		ds_map_add(global.langmap, "msg.level.passage", "ANCIENT PASSAGEWAY");
 		ds_map_add(global.langmap, "msg.level.exit", "EXIT");
 		
 		ds_map_add(global.langmap, "msg.level.golf", "GOLF");
