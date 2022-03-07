@@ -7,18 +7,9 @@ if !global.pastdisclaimer
 
 if instance_exists(obj_gms) && gms_info_isloggedin()
 {
-	var ver = real(gms_ini_game_read("game", "version"));
-	if ver > obj_gms.gameversion
-	&& obj_gms.alarm[5] <= -1
-		obj_gms.alarm[5] = 1;
-	
-	if !variable_global_exists("logged") or !global.logged
-		room_goto(room_of_dog);
 }
 else
 {
-	if variable_global_exists("logged") && global.logged
-		room_goto(room_of_dog);
 }
 
 /*
