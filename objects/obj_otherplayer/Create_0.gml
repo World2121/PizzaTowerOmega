@@ -1,7 +1,7 @@
 name = "";
 player_id = -1;
 
-depth = -6;
+depth = 40;
 baddieframe = 0;
 cowboyframe = 0;
 shieldframe = 0;

@@ -11,7 +11,7 @@ xscale = 1;
 yscale = 1;
 facehurt = false
 steppy = false
-depth = -7
+depth = 40
 movespeed = 19
 jumpstop = false
 
