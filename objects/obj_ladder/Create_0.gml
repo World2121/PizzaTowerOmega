@@ -14,6 +14,8 @@ if string_startswith(roomname, "floor3_room")
 // sugary
 if string_startswith(roomname, "cotton_")
 	sprite_index = spr_ladderSP_rope;
+if string_startswith(roomname, "wafer_")
+	sprite_index = spr_ladderSP_rope;
 else if check_sugary()
 	sprite_index = spr_ladderSP;
 

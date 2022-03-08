@@ -66,6 +66,7 @@ function loyencode(str) {
 function check_sugary() {
 	return room == hub_roomSP
 	or string_startswith(room_get_name(room), "cotton_")
+	or string_startswith(room_get_name(room), "wafer_")
 	or string_startswith(room_get_name(room), "jawbreaker_");
 }
 

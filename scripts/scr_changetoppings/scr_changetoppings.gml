@@ -12,7 +12,9 @@ function scr_changetoppings() {
 				sprite_index = choose(spr_halloweencollectibles1,spr_halloweencollectibles2,spr_halloweencollectibles3,spr_halloweencollectibles4,spr_halloweencollectibles5)
 			if obj_player1.character = "S"
 				sprite_index = spr_snickcollectible1
-			if obj_player1.character = "SP"
+			if obj_player1.character = "SP" 
+				sprite_index = choose(spr_sugarycollectibles1, spr_sugarycollectibles2, spr_sugarycollectibles3, spr_sugarycollectibles4, spr_sugarycollectibles5, spr_sugarycollectibles6, spr_sugarycollectibles7, spr_sugarycollectibles8, spr_sugarycollectibles9, spr_sugarycollectibles10);
+			if obj_player1.character = "A" 
 				sprite_index = choose(spr_sugarycollectibles1, spr_sugarycollectibles2, spr_sugarycollectibles3, spr_sugarycollectibles4, spr_sugarycollectibles5, spr_sugarycollectibles6, spr_sugarycollectibles7, spr_sugarycollectibles8, spr_sugarycollectibles9, spr_sugarycollectibles10);
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)
@@ -29,7 +31,9 @@ function scr_changetoppings() {
 				sprite_index = choose(spr_pizzacollect1halloween, spr_pizzacollect2halloween, spr_pizzacollect3halloween)
 			if obj_player1.character = "S"
 				sprite_index = spr_snickcollectible2
-			if obj_player1.character = "SP"
+			if obj_player1.character = "SP" 
+				sprite_index = choose(spr_pizzacollect1_ss, spr_pizzacollect2_ss, spr_pizzacollect3_ss)
+			if obj_player1.character = "A" 
 				sprite_index = choose(spr_pizzacollect1_ss, spr_pizzacollect2_ss, spr_pizzacollect3_ss)
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)
@@ -49,6 +53,8 @@ function scr_changetoppings() {
 				sprite_index = spr_snickcollectible3
 			if obj_player1.character = "SP"
 				sprite_index = spr_giantpizza_ss
+			if obj_player1.character = "A"
+				sprite_index = spr_giantpizza_ss
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)
 			repeat (5) instance_create(x+sprite_width/2+random_range(-15,15), y +sprite_height/2+random_range(-5,5), obj_cloudeffect)
@@ -63,8 +69,10 @@ function scr_changetoppings() {
 				sprite_index = spr_destroyable2
 			if obj_player1.character = "N"
 				sprite_index = spr_halloweensmallblock
-			if obj_player1.character = "SP"
+			if obj_player1.character = "SP" 
 				sprite_index = spr_destroyable2_ss
+			if obj_player1.character = "A" 
+				sprite_index = spr_destroyable2_ss	
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)
 			repeat (3) instance_create(x+sprite_width/2+random_range(-5,5), y +sprite_height/2+random_range(-5,5), obj_cloudeffect)
@@ -82,6 +90,8 @@ function scr_changetoppings() {
 				sprite_index = spr_halloweensmallblockescape
 			if obj_player1.character = "SP"
 				sprite_index = spr_destroyable2escape_ss
+			if obj_player1.character = "SP"
+				sprite_index = spr_destroyable2escape_ss
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)
 			repeat (3) instance_create(x+sprite_width/2+random_range(-5,5), y +sprite_height/2+random_range(-5,5), obj_cloudeffect)
@@ -96,7 +106,9 @@ function scr_changetoppings() {
 				sprite_index = spr_bigbreakable
 			if obj_player1.character = "N"
 				sprite_index = spr_halloweenbigblock
-			if obj_player1.character = "SP"
+			if obj_player1.character = "SP" 
+				sprite_index = spr_destroyable2big_ss
+			if obj_player1.character = "A" 
 				sprite_index = spr_destroyable2big_ss
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)
@@ -113,6 +125,8 @@ function scr_changetoppings() {
 			if obj_player1.character = "N"
 				sprite_index = spr_halloweenbigblockescape
 			if obj_player1.character = "SP"
+				sprite_index = spr_destroyable2bigescape_ss
+			if obj_player1.character = "A"
 				sprite_index = spr_destroyable2bigescape_ss
 
 			instance_create(x+sprite_width/2,y+sprite_height/2,obj_cloudeffect)

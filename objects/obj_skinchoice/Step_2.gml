@@ -34,7 +34,7 @@ if sel[1] == "N" && key_taunt2
 }
 
 // change character
-var lastchar = "SP";
+var lastchar = "A";
 /*
 if (instance_exists(obj_gms) && gms_info_isloggedin() && string_lower(gms_self_name()) == "peic")
 or debug
@@ -62,10 +62,13 @@ if key_down2 && sel[1] != lastchar
 			sel[1] = "SP";
 			break;
 		case "SP":
-			if debug
-				sel[1] = "SN";
-			else
-				sel[1] = "G";
+			//if debug
+			//	sel[1] = "SN";
+			//else
+				sel[1] = "A";
+			break;
+		case "A":
+			sel[1] = "P";
 			break;
 		case "SN":
 			if debug
@@ -101,6 +104,9 @@ else if key_up2 && sel[1] != "P"
 			break;
 		case "SP":
 			sel[1] = "S";
+			break;
+		case "A":
+			sel[1] = "SP";
 			break;
 		case "SN":
 			sel[1] = "SP";
