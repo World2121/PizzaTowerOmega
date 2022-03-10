@@ -26,6 +26,8 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"592c36c7-f42d-4498-8ed6-47df7e8d6925","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"592c36c7-f42d-4498-8ed6-47df7e8d6925","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"LayerId":{"name":"3f32a8ac-f947-4b5c-8e20-bb07158859cf","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"592c36c7-f42d-4498-8ed6-47df7e8d6925","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"LayerId":{"name":"1795c0a6-d778-44d6-8dae-af7c6fff0b01","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"592c36c7-f42d-4498-8ed6-47df7e8d6925","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"LayerId":{"name":"4adf5a3e-f4f7-4b1e-88e8-a2221c78a548","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"bg_grinch_santa","path":"sprites/bg_grinch_santa/bg_grinch_santa.yy",},"resourceVersion":"1.0","name":"592c36c7-f42d-4498-8ed6-47df7e8d6925","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,7 +67,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3f32a8ac-f947-4b5c-8e20-bb07158859cf","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4adf5a3e-f4f7-4b1e-88e8-a2221c78a548","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

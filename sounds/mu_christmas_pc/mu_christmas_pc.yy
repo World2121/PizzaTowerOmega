@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_christmas_pc.ogg",
-  "duration": 16.5517235,
+  "soundFile": "mu_christmas_pc.mp3",
+  "duration": 131.160812,
   "parent": {
     "name": "pizza castle",
     "path": "folders/Sounds/pto extra/pizza castle.yy",

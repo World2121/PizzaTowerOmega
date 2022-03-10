@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_christmas.wav",
-  "duration": 16.5517235,
+  "soundFile": "mu_christmas.mp3",
+  "duration": 147.774689,
   "parent": {
     "name": "pto extra",
     "path": "folders/Sounds/pto extra.yy",
