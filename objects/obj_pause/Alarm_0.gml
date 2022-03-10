@@ -82,6 +82,8 @@ else if string_startswith(roomname, "cotton")
 	room_goto_new(cotton_1)
 else if string_startswith(roomname, "jawbreaker")
 	room_goto_new(jawbreaker_1)
+else if string_startswith(roomname, "wafer")
+	room_goto_new(wafer_1)
 else if room == custom_lvl_room
 	room_restart();
 

@@ -1369,6 +1369,24 @@ function scr_characterspr(char = character)
 				break;
 		
 		#endregion
+		#region ANGIE
+		
+			case "A":
+				scr_characterspr("SP");
+				spr_idle = spr_playerA_idle;
+				spr_move = spr_playerA_move
+				spr_mach4 = spr_playerA_mach3
+				spr_mach = spr_playerA_mach2
+				spr_mach1 = spr_playerA_mach1
+				spr_suplexdash = spr_playerA_suplexdash
+				
+				spr_palette = spr_angiepalette;
+				
+				// SOUNDS
+				snd_fireass = sfx_screamSP;
+				break;
+		
+		#endregion
 	}
 	pal_swap_index_palette(spr_palette);
 	

@@ -86,7 +86,7 @@ if drawing
 		
 		// sugary spire toppins
 		var sugary = false;
-		if level == "cotton" or level == "jawbreaker"
+		if level == "cotton" or level == "jawbreaker" or level == "wafer"
 			sugary = true;
 		
 		// shroom

@@ -103,6 +103,21 @@ else if (!global.panic or string_letters(roomname) == "dragonlair" or string_let
 			musplay = mu_snickentrance
 		else if obj_player1.character == "SP"
 			musplay = mu_pizzyentrance
+		else if obj_player1.character == "A"
+			musplay = mu_pizzyentrance
+		else
+			musplay = mu_entrance
+	}
+	if string_letters(roomname) == "wafer" 
+	{
+		if obj_player1.character == "N"
+			musplay = mu_noiseentrance
+		else if obj_player1.character == "S"
+			musplay = mu_snickentrance
+		else if obj_player1.character == "SP"
+			musplay = mu_pizzyentrance
+		else if obj_player1.character == "A"
+			musplay = mu_pizzyentrance
 		else
 			musplay = mu_entrance
 	}

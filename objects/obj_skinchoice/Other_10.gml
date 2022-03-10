@@ -190,6 +190,20 @@ switch sel[1]
 			["CRYSTALIZED", "Missed opportunity to make it transparent."],
 		];
 	break;
+		case "A":
+		spr_palette = spr_angiepalette;
+		spr_idle = spr_playerA_idle;
+		selarray = [
+			["YELLOW", "Yellow"],
+			["ANGIE", "Look it's pizzelle's simp!"],
+			["VANILLA", "You shouldn't know the origin of this flavor..."],
+			["STRAWBERRY", "Favorite flavor of most girls!"],
+			["CHOCOLATE", "Cocoa paste food substance"],
+			["BLUE BERRY", "I'm blue da ba dee da bae daa"],
+			["SLUGGY", "Sluggy gal"],
+			["VANILLA 2", "I TOLD YOU NOT TO KNOW."],
+		];
+	break;
 	
 	#region joke
 	
@@ -291,7 +305,7 @@ switch sel[1]
 		locked = false;
 		break;
 }
-var basepal = (sel[1] == "P" or sel[1] == "SP" or sel[1] == "SN");
+var basepal = (sel[1] == "P" or sel[1] == "SP" or sel[1] == "SN" or sel[1] == "A");
 
 if sel[1] != obj_player1.character
 	sel[0] = basepal;

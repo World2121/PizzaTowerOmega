@@ -196,6 +196,8 @@ if global.gameplay == 0
 			character = "PIZZELLE"
 		else if char == "M"
 			character = "PEPPERMAN"
+		else if char == "A"
+			character = "ANGIE"
 		else
 			character = "NULLINO"
 		

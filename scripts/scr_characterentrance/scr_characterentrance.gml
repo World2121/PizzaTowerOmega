@@ -31,6 +31,12 @@ function scr_characterentrance(argument0)
 		with obj_music
 			event_perform(ev_other, ev_room_start);
 	}
+	if audio_is_playing(mu_pizzyentrance) && argument0 != "A"
+	{
+		audio_stop_sound(mu_pizzyentrance);
+		with obj_music
+			event_perform(ev_other, ev_room_start);
+	}
 	
 	// shitk golf
 	if (audio_is_playing(mu_minigolf) && scr_checkskin(checkskin.s_shit))

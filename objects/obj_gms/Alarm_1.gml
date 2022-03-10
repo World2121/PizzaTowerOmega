@@ -1,7 +1,3 @@
-/// @description check for version and disconnect
-if debug
-	exit;
-
 if gms_info_isconnected()
 {
 	// already done on player alarm 11
