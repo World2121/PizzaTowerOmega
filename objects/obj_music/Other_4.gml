@@ -1,4 +1,4 @@
-s// prepare
+// prepare
 if wait
 {
 	alarm[1] = 1;
