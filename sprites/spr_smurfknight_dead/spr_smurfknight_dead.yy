@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smurfknight_dead","path":"sprites/spr_smurfknight_dead/spr_smurfknight_dead.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smurfknight_dead",
     "tags": [],
     "resourceType": "GMSequence",

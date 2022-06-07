@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_facehurt","path":"sprites/spr_playerSP_facehurt/spr_playerSP_facehurt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_facehurt",
     "tags": [],
     "resourceType": "GMSequence",

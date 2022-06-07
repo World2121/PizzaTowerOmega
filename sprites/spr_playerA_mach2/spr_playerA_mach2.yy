@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerA_mach2","path":"sprites/spr_playerA_mach2/spr_playerA_mach2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerA_mach2",
     "tags": [],
     "resourceType": "GMSequence",

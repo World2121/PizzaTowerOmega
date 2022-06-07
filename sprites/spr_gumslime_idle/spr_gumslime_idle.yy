@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gumslime_idle","path":"sprites/spr_gumslime_idle/spr_gumslime_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gumslime_idle",
     "tags": [],
     "resourceType": "GMSequence",

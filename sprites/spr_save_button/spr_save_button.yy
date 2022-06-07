@@ -73,7 +73,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_save_button","path":"sprites/spr_save_button/spr_save_button.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "",
     "tags": [],
     "resourceType": "GMSequence",

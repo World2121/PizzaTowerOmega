@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_clayfuck","path":"sprites/spr_clayfuck/spr_clayfuck.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_clayfuck",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"pitzel","path":"sprites/pitzel/pitzel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "pitzel",
     "tags": [],
     "resourceType": "GMSequence",

@@ -62,7 +62,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_vigilanteicon","path":"sprites/spr_vigilanteicon/spr_vigilanteicon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_vigilanteicon",
     "tags": [],
     "resourceType": "GMSequence",

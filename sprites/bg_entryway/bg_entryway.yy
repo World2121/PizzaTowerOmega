@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_entryway","path":"sprites/bg_entryway/bg_entryway.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bg_entryway",
     "tags": [],
     "resourceType": "GMSequence",

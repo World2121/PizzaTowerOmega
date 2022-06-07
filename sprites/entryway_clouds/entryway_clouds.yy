@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"entryway_clouds","path":"sprites/entryway_clouds/entryway_clouds.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "entryway_clouds",
     "tags": [],
     "resourceType": "GMSequence",

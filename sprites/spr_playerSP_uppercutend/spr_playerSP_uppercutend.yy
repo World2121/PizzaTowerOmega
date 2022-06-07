@@ -62,7 +62,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_uppercutend","path":"sprites/spr_playerSP_uppercutend/spr_playerSP_uppercutend.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_uppercutend",
     "tags": [],
     "resourceType": "GMSequence",

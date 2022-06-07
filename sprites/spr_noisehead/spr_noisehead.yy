@@ -62,7 +62,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_noisehead","path":"sprites/spr_noisehead/spr_noisehead.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_noisehead",
     "tags": [],
     "resourceType": "GMSequence",

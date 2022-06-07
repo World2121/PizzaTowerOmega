@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pizzyHUDcotton","path":"sprites/spr_pizzyHUDcotton/spr_pizzyHUDcotton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pizzyHUDcotton",
     "tags": [],
     "resourceType": "GMSequence",

@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_cowboytaskleft","path":"sprites/bg_cowboytaskleft/bg_cowboytaskleft.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bg_cowboytaskleft",
     "tags": [],
     "resourceType": "GMSequence",

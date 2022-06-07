@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_suplexdash_NEW","path":"sprites/spr_playerSP_suplexdash_NEW/spr_playerSP_suplexdash_NEW.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_suplexdash_NEW",
     "tags": [],
     "resourceType": "GMSequence",

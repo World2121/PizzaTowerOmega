@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bg_entrywaybuildings","path":"sprites/bg_entrywaybuildings/bg_entrywaybuildings.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bg_entrywaybuildings",
     "tags": [],
     "resourceType": "GMSequence",

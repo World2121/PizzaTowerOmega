@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gumslime_stunned","path":"sprites/spr_gumslime_stunned/spr_gumslime_stunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gumslime_stunned",
     "tags": [],
     "resourceType": "GMSequence",

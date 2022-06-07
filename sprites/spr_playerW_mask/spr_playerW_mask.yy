@@ -62,7 +62,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerW_mask","path":"sprites/spr_playerW_mask/spr_playerW_mask.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerW_mask",
     "tags": [],
     "resourceType": "GMSequence",

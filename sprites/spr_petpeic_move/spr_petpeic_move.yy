@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_petpeic_move","path":"sprites/spr_petpeic_move/spr_petpeic_move.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_petpeic_move",
     "tags": [],
     "resourceType": "GMSequence",

@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_petsneck_move","path":"sprites/spr_petsneck_move/spr_petsneck_move.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_petsneck_move",
     "tags": [],
     "resourceType": "GMSequence",

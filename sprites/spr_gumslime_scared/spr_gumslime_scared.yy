@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gumslime_scared","path":"sprites/spr_gumslime_scared/spr_gumslime_scared.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gumslime_scared",
     "tags": [],
     "resourceType": "GMSequence",

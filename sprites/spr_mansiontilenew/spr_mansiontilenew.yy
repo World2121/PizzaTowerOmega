@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mansiontilenew","path":"sprites/spr_mansiontilenew/spr_mansiontilenew.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_mansiontilenew",
     "tags": [],
     "resourceType": "GMSequence",

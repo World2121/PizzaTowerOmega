@@ -102,7 +102,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_supertaunt","path":"sprites/spr_playerSP_supertaunt/spr_playerSP_supertaunt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_supertaunt",
     "tags": [],
     "resourceType": "GMSequence",

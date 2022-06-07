@@ -74,7 +74,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_piledriverland","path":"sprites/spr_playerSP_piledriverland/spr_playerSP_piledriverland.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_piledriverland",
     "tags": [],
     "resourceType": "GMSequence",

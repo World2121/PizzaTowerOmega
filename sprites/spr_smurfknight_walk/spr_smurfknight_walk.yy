@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smurfknight_walk","path":"sprites/spr_smurfknight_walk/spr_smurfknight_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smurfknight_walk",
     "tags": [],
     "resourceType": "GMSequence",

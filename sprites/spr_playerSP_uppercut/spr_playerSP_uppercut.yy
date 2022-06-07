@@ -110,7 +110,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_uppercut","path":"sprites/spr_playerSP_uppercut/spr_playerSP_uppercut.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_uppercut",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"tile_wafer","path":"sprites/tile_wafer/tile_wafer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "tile_wafer",
     "tags": [],
     "resourceType": "GMSequence",

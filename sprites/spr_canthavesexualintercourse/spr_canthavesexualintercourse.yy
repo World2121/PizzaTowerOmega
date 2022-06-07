@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_canthavesexualintercourse","path":"sprites/spr_canthavesexualintercourse/spr_canthavesexualintercourse.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_canthavesexualintercourse",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerA_move","path":"sprites/spr_playerA_move/spr_playerA_move.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerA_move",
     "tags": [],
     "resourceType": "GMSequence",

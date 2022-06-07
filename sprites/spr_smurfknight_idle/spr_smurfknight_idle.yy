@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smurfknight_idle","path":"sprites/spr_smurfknight_idle/spr_smurfknight_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smurfknight_idle",
     "tags": [],
     "resourceType": "GMSequence",

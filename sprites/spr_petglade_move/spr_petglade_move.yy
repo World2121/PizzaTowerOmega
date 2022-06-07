@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_petglade_move","path":"sprites/spr_petglade_move/spr_petglade_move.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_petglade_move",
     "tags": [],
     "resourceType": "GMSequence",

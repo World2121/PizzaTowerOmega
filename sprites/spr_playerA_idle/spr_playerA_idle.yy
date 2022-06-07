@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerA_idle","path":"sprites/spr_playerA_idle/spr_playerA_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerA_idle",
     "tags": [],
     "resourceType": "GMSequence",

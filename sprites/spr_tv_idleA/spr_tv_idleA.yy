@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tv_idleA","path":"sprites/spr_tv_idleA/spr_tv_idleA.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tv_idleA",
     "tags": [],
     "resourceType": "GMSequence",

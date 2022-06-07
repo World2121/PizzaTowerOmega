@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_comboman","path":"sprites/spr_comboman/spr_comboman.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_comboman",
     "tags": [],
     "resourceType": "GMSequence",

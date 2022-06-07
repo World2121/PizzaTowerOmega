@@ -70,7 +70,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSP_piledriver","path":"sprites/spr_playerSP_piledriver/spr_playerSP_piledriver.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSP_piledriver",
     "tags": [],
     "resourceType": "GMSequence",

@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_petcaptions_move","path":"sprites/spr_petcaptions_move/spr_petcaptions_move.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_petcaptions_move",
     "tags": [],
     "resourceType": "GMSequence",

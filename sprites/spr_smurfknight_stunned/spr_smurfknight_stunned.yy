@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smurfknight_stunned","path":"sprites/spr_smurfknight_stunned/spr_smurfknight_stunned.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smurfknight_stunned",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_angiepalette","path":"sprites/spr_angiepalette/spr_angiepalette.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_angiepalette",
     "tags": [],
     "resourceType": "GMSequence",

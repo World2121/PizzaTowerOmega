@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pizzyHUDthunder","path":"sprites/spr_pizzyHUDthunder/spr_pizzyHUDthunder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pizzyHUDthunder",
     "tags": [],
     "resourceType": "GMSequence",

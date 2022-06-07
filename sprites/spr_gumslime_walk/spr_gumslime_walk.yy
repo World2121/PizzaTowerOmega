@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gumslime_walk","path":"sprites/spr_gumslime_walk/spr_gumslime_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gumslime_walk",
     "tags": [],
     "resourceType": "GMSequence",

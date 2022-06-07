@@ -62,7 +62,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerSN_idle","path":"sprites/spr_playerSN_idle/spr_playerSN_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerSN_idle",
     "tags": [],
     "resourceType": "GMSequence",
