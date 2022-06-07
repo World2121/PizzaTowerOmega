@@ -59,21 +59,27 @@ if key_down2 && sel[1] != lastchar
 			sel[1] = "S";
 			break;
 		case "S":
+			sel[1] = "M";
+			break;
+		case "M":
+			sel[1] = "D";
+			break;
+		case "D":
 			sel[1] = "SP";
 			break;
 		case "SP":
-			//if debug
-			//	sel[1] = "SN";
-			//else
-				sel[1] = "A";
+			sel[1] = "SN";
+			break;
+		case "SN":
+			sel[1] = "A";
 			break;
 		case "A":
 			sel[1] = "P";
 			break;
-		case "SN":
-			if debug
-				sel[1] = "G";
-			break;
+		//case "SN":
+			//if debug
+				//sel[1] = "G";
+			//break;
 		
 		/*
 			sel[1] = "M";

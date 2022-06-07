@@ -1071,6 +1071,562 @@ function scr_characterspr(char = character)
 				break
 	
 		#endregion
+		#region PEPPERMAN
+		
+			case "PM":
+				spr_idle = spr_playerN_idle
+				spr_move = spr_playerN_move
+				spr_crawl = spr_playerN_crawl
+				spr_idle = spr_playerN_idle
+				spr_hurt = spr_playerN_hurt
+				spr_jump = spr_playerN_jump
+				spr_jump2 = spr_player_jump2
+				spr_fall = spr_playerN_fall
+				spr_fall2 = spr_player_fall2
+				spr_crouch = spr_playerN_crouch
+				spr_crouchjump = spr_playerN_crouchjump
+				spr_crouchfall = spr_playerN_crouchfall
+				spr_couchstart = spr_playerN_crouchstart
+				spr_bump = spr_playerN_bump
+				spr_land = spr_playerN_land
+				spr_land2 = spr_playerN_land2
+				spr_lookdoor = spr_playerN_lookdoor
+				spr_walkfront = spr_playerN_walkfront
+				spr_victory = spr_playerN_victory
+				spr_Ladder = spr_playerN_ladder
+				spr_laddermove = spr_playerN_laddermove
+				spr_ladderdown = spr_playerN_ladderdown
+				spr_keyget = spr_playerN_keyget
+				spr_keyget_ss = spr_playerN_keyget_ss
+				spr_crouchslip = spr_playerN_crouchslip
+
+				spr_mach1 = spr_playerN_mach1
+				spr_mach = spr_playerN_mach
+				spr_secondjump1 = spr_playerN_secondjump1
+				spr_secondjump2 = spr_playerN_secondjump2
+				spr_machslidestart = spr_playerN_machslidestart
+				spr_machslide = spr_playerN_machslide
+				spr_machslideend = spr_playerN_machslideend
+				spr_machslideboost = spr_playerN_machslideboost
+
+				spr_land2 = spr_playerN_land2
+				spr_punch = spr_playerN_punch
+				spr_backkick = spr_playerN_backkick
+				spr_shoulder = spr_playerN_shoulder
+				spr_uppunch = spr_playerN_uppunch
+				spr_stomp = spr_playerN_stomp
+				spr_stompprep = spr_playerN_stompprep
+				spr_crouchslide = spr_playerN_crouchslip
+				spr_bump = spr_playerN_bump
+				spr_victory = spr_playerN_victory
+				spr_hurt = spr_playerN_hurt
+				spr_climbwall = spr_playerN_climbwall
+				spr_grab = spr_playerN_grab
+
+				spr_mach2jump = spr_playerN_mach2jump
+				spr_Timesup = spr_playerN_timesup
+				spr_deathstart = spr_playerN_deathstart
+				spr_deathend = spr_playerN_deathend
+				spr_machpunch1 = spr_playerN_machpunch1
+				spr_machpunch2 = spr_playerN_machpunch2
+				spr_hurtjump = spr_playerN_hurtjump
+				spr_entergate = spr_playerN_entergate
+				spr_gottreasure = spr_playerN_gottreasure
+				spr_bossintro = spr_playerN_bossintro
+				spr_hurtidle = spr_playerN_hurtidle
+				spr_hurtwalk = spr_playerN_hurtwalk
+				spr_suplexmash1 = spr_playerN_suplexmash1
+				spr_suplexmash2 = spr_playerN_suplexmash2
+				spr_suplexmash3 = spr_playerN_suplexmash3
+				spr_suplexmash4 = spr_playerN_suplexmash4
+				spr_tackle = spr_playerN_tackle
+				spr_airdash1 = spr_playerN_airdash1
+				spr_airdash2 = spr_playerN_airdash2
+
+				spr_idle1 = spr_playerN_idleface
+				spr_idle2 = spr_playerN_idlegun
+				spr_idle3 = spr_playerN_idlesmoke
+				spr_idle4 = spr_playerN_idledance
+				spr_idle5 = spr_playerN_idleballoon
+				spr_idle6 = spr_playerN_idlemask
+
+
+				spr_piledriver = spr_playerN_piledriver
+				spr_piledriverland = spr_playerN_piledriverland
+				spr_charge = spr_playerN_charge
+				spr_mach3jump = spr_playerN_mach3jump
+				spr_mach4 = spr_playerN_mach3
+
+
+				spr_machclimbwall = spr_playerN_climbwall
+				spr_dive = spr_playerN_dive
+				spr_machroll = spr_playerN_machroll
+				spr_hitwall = spr_playerN_mach3hitwall
+
+
+				spr_superjumpland = spr_playerN_Sjumpland
+				spr_walljumpstart = spr_playerN_walljumpstart
+
+				spr_superjumpprep = spr_playerN_Sjumpstart
+				spr_superjump = spr_playerN_Sjump
+				spr_machfreefall = spr_playerN_fall
+				spr_mach3hit = spr_playerN_machpunch1
+
+				spr_knightpepwalk = spr_playerN_knightmove
+				spr_knightpepjump = spr_playerN_knightjump
+				spr_knightpepfall = spr_playerN_knightfall
+				spr_knightpepidle = spr_playerN_knightidle
+				spr_knightpepjumpstart = spr_playerN_knightjumpstart
+				spr_knightpepthunder = spr_playerN_knightstart
+				spr_knightpepland = spr_playerN_knightland
+				spr_knightpepdownslope = spr_playerN_knightdownslope
+				 spr_knightpepstart =  spr_playerN_knightsword
+				spr_knightpepcharge = spr_playerN_knightslide
+
+				spr_bodyslamstart = spr_playerN_bodyslamstart
+				spr_bodyslamfall = spr_playerN_bodyslam
+				 spr_bodyslamland = spr_playerN_bodyslamland
+				 spr_crazyrun = spr_playerN_crazyrun
+ 
+				 spr_bombpeprun = spr_playerN_bomb
+				spr_bombpepintro = spr_playerN_bombstart
+				spr_bombpeprunabouttoexplode = spr_playerN_bombabouttoexplode
+				spr_bombpepend = spr_playerN_bombend
+ 
+
+				spr_fireass = spr_playerN_fireass
+				spr_fireassground = spr_playerN_fireassground
+				spr_fireassend = spr_playerN_fireassend
+				spr_tumblestart = spr_playerN_tumblestart
+				spr_tumbleend = spr_playerN_tumbleend
+				spr_tumble = spr_playerN_tumble
+				spr_stunned = spr_playerN_stunned
+
+				spr_downpizzabox = spr_playerN_downpizzabox
+				spr_uppizzabox = spr_playerN_uppizzabox
+
+				spr_taunt = spr_playerN_dab
+				spr_slipnslide = spr_playerN_slipnslide
+
+
+				spr_mach3boost = spr_playerN_mach3boost
+				spr_facehurtup = spr_playerN_facehurtup
+				spr_facehurt = spr_playerN_facehurt
+
+
+
+				spr_walljumpend = spr_playerN_walljumpend
+				spr_suplexdash = spr_playerN_suplexgrab
+				spr_suplexdashjumpstart = spr_playerN_suplexgrabjumpstart
+				spr_suplexdashjump = spr_playerN_suplexgrabjump
+				spr_shotgunsuplexdash = spr_playerN_minigundash
+
+				spr_rollgetup = spr_playerN_rollgetup
+
+				spr_superjumppreplight = spr_playerN_Sjumpprep
+				spr_superjumpright =  spr_playerN_Sjumpmoveright
+				spr_superjumpleft = spr_playerN_Sjumpmoveleft
+
+				spr_swingding = spr_playerN_swingding
+				spr_swingdingend = spr_playerN_swingdingend
+				spr_haulingjump = spr_playerN_haulingjump
+				spr_haulingidle = spr_playerN_haulingidle
+				spr_haulingwalk = spr_playerN_haulingmove
+				spr_haulingstart = spr_playerN_haulingstart
+				spr_haulingfall = spr_playerN_haulingfall
+				spr_haulingland = spr_playerN_haulingland
+				spr_uppercutfinishingblow = spr_playerN_uppercut
+				spr_finishingblow1 = spr_playerN_finishingblow1
+				spr_finishingblow2 = spr_playerN_finishingblow2
+				spr_finishingblow3 = spr_playerN_finishingblow3
+				spr_finishingblow4 = spr_playerN_finishingblow4
+				spr_finishingblow5 = spr_playerN_finishingblow5
+
+				spr_winding = spr_playerN_winding
+				spr_3hpwalk = spr_playerN_angrymove
+				spr_3hpidle = spr_playerN_angryidle
+				spr_panic = spr_playerN_panicidle
+
+				spr_facestomp = spr_playerN_machfreefall1
+				spr_freefall = spr_playerN_machfreefall2
+
+				spr_shotgunland = spr_playerN_minigunland
+				spr_shotgunshoot = spr_playerN_minigunshoot
+				spr_shotgunidle = spr_playerN_minigunidle
+				spr_shotgunwalk = spr_playerN_minigunmove
+				spr_shotgunfall = spr_playerN_minigunfall
+				spr_shotgunjump = spr_playerN_minigunjump
+				spr_shotgunjump1 = spr_playerN_minigunslamprep
+				spr_shotgunjump2 = spr_playerN_minigunslamland
+				spr_shotgunjump3 = spr_playerN_minigunslam
+				spr_shotgunpullout = spr_playerN_minigunstart
+				spr_shotgunduck = spr_playerN_minigunduck
+				spr_shotguncrawl = spr_playerN_miniguncrawl
+				spr_shotgungoduck = spr_playerN_minigungoduck
+
+				spr_fightball = spr_playerN_fightball
+				spr_squished = spr_playerN_squished
+
+				spr_taunt =spr_playerN_taunt
+				spr_supertaunt1 = spr_playerN_supertaunt1
+				spr_supertaunt2 = spr_playerN_supertaunt2
+				spr_supertaunt3 = spr_playerN_supertaunt3
+				spr_supertaunt4 = spr_playerN_supertaunt4
+
+				spr_rideweenie = spr_playerN_weeniemount
+				spr_barrelroll = spr_playerN_barrel
+				spr_ghostidle = spr_playerN_ghostidle
+				spr_ghostjump = spr_playerN_ghostjump
+				spr_ghostend = spr_playerN_ghostend
+				spr_ghostdash = spr_playerN_ghostdash
+				spr_scaredjump1 = spr_playerN_scaredjump1
+				spr_scaredjump2 = spr_playerN_scaredjump2
+				spr_scaredjump3 = spr_playerN_scaredjump3
+				
+				spr_parry1 = spr_playerN_parry1;
+				spr_parry2 = spr_playerN_parry2;
+				spr_parry3 = spr_playerN_parry3;
+				
+				spr_Current = spr_playerN_current;
+				spr_suplexcancel = spr_playerN_suplexcancel;
+				spr_suplexbump = spr_playerN_suplexbump;
+				
+				spr_firemouth = spr_playerN_firemouth;
+				spr_firemouthintro = spr_playerN_firemouthintro;
+				spr_firemouthshoot = spr_playerN_firemouthshoot;
+				spr_firemouthend = spr_playerN_firemouthend;
+				
+				spr_boxxed_intro = spr_playerN_boxxedintro;
+				spr_boxxed_idle = spr_playerN_boxxedidle;
+				spr_boxxed_walk = spr_playerN_boxxedmove;
+				spr_boxxed_air = spr_playerN_boxxedfall;
+				spr_boxxed_dash = spr_playerN_boxxeddash;
+				spr_boxxed_jump = spr_playerN_boxxedjump;
+				
+				spr_dashpadmach = spr_playerN_dashpad;
+				spr_dead = spr_playerN_deathend
+				
+				spr_rocketstart = spr_playerN_rocketstart;
+				spr_rocket = spr_playerN_rocket;
+				spr_rockethitwall = spr_playerN_rockethitwall;
+				
+				spr_slipbanan1 = spr_playerN_slipbanan1;
+				spr_slipbanan2 = spr_playerN_slipbanan2;
+				
+				spr_cheeseballed = spr_playerN_cheeseball;
+				spr_faceplant = spr_playerN_spin;
+				
+				spr_rageidle = spr_playerN_rageidle;
+				spr_ragemove = spr_playerN_ragemove;
+				
+				spr_breakdanceuppercut = spr_playerN_tumble;
+				spr_breakdanceuppercutend = spr_playerN_fall;
+				
+				spr_suplexland = spr_playerN_suplexland;
+				
+				spr_pmortwalk = spr_player_mortwalk;
+				spr_pmortidle = spr_player_mortidle;
+				spr_pmortjump = spr_playerN_mortjump;
+				spr_pmortattack = spr_player_mortattack;
+				spr_pmortjumpstart = spr_playerN_mortjump;
+				spr_pmortland = spr_player_mortland;
+				spr_pmortthrow = spr_playerN_mortthrow;
+				
+				spr_superspringplayer = spr_playerN_superspring;
+				
+				spr_pistolidle = spr_playerN_idle;
+				spr_pistolwalk = spr_playerN_move;
+				spr_pistolshot = spr_playerN_noisebombkick;
+				spr_pistolshotend = spr_playerN_idle;
+				
+				spr_golfidle = spr_playerN_golfidle;
+				spr_golflook1 = spr_playerN_golflook1;
+				spr_golflook2 = spr_playerN_golflook2;
+				spr_golflook3 = spr_playerN_golflook3;
+				spr_golfswing = spr_playerN_golfswing;
+				
+				spr_palette = spr_noisepalette
+				break;
+	
+		#endregion
+		#region DOUGIE
+		
+			case "D":
+				spr_idle = spr_dougie_idle
+				spr_move = spr_playerN_move
+				spr_crawl = spr_playerN_crawl
+				spr_idle = spr_dougie_idle
+				spr_hurt = spr_playerN_hurt
+				spr_jump = spr_playerN_jump
+				spr_jump2 = spr_player_jump2
+				spr_fall = spr_playerN_fall
+				spr_fall2 = spr_player_fall2
+				spr_crouch = spr_playerN_crouch
+				spr_crouchjump = spr_playerN_crouchjump
+				spr_crouchfall = spr_playerN_crouchfall
+				spr_couchstart = spr_playerN_crouchstart
+				spr_bump = spr_playerN_bump
+				spr_land = spr_playerN_land
+				spr_land2 = spr_playerN_land2
+				spr_lookdoor = spr_playerN_lookdoor
+				spr_walkfront = spr_playerN_walkfront
+				spr_victory = spr_playerN_victory
+				spr_Ladder = spr_playerN_ladder
+				spr_laddermove = spr_playerN_laddermove
+				spr_ladderdown = spr_playerN_ladderdown
+				spr_keyget = spr_playerN_keyget
+				spr_keyget_ss = spr_playerN_keyget_ss
+				spr_crouchslip = spr_playerN_crouchslip
+
+				spr_mach1 = spr_playerN_mach1
+				spr_mach = spr_playerN_mach
+				spr_secondjump1 = spr_playerN_secondjump1
+				spr_secondjump2 = spr_playerN_secondjump2
+				spr_machslidestart = spr_playerN_machslidestart
+				spr_machslide = spr_playerN_machslide
+				spr_machslideend = spr_playerN_machslideend
+				spr_machslideboost = spr_playerN_machslideboost
+
+				spr_land2 = spr_playerN_land2
+				spr_punch = spr_playerN_punch
+				spr_backkick = spr_playerN_backkick
+				spr_shoulder = spr_playerN_shoulder
+				spr_uppunch = spr_playerN_uppunch
+				spr_stomp = spr_playerN_stomp
+				spr_stompprep = spr_playerN_stompprep
+				spr_crouchslide = spr_playerN_crouchslip
+				spr_bump = spr_playerN_bump
+				spr_victory = spr_playerN_victory
+				spr_hurt = spr_playerN_hurt
+				spr_climbwall = spr_playerN_climbwall
+				spr_grab = spr_playerN_grab
+
+				spr_mach2jump = spr_playerN_mach2jump
+				spr_Timesup = spr_playerN_timesup
+				spr_deathstart = spr_playerN_deathstart
+				spr_deathend = spr_playerN_deathend
+				spr_machpunch1 = spr_playerN_machpunch1
+				spr_machpunch2 = spr_playerN_machpunch2
+				spr_hurtjump = spr_playerN_hurtjump
+				spr_entergate = spr_playerN_entergate
+				spr_gottreasure = spr_playerN_gottreasure
+				spr_bossintro = spr_playerN_bossintro
+				spr_hurtidle = spr_playerN_hurtidle
+				spr_hurtwalk = spr_playerN_hurtwalk
+				spr_suplexmash1 = spr_playerN_suplexmash1
+				spr_suplexmash2 = spr_playerN_suplexmash2
+				spr_suplexmash3 = spr_playerN_suplexmash3
+				spr_suplexmash4 = spr_playerN_suplexmash4
+				spr_tackle = spr_playerN_tackle
+				spr_airdash1 = spr_playerN_airdash1
+				spr_airdash2 = spr_playerN_airdash2
+
+				spr_idle1 = spr_playerN_idleface
+				spr_idle2 = spr_playerN_idlegun
+				spr_idle3 = spr_playerN_idlesmoke
+				spr_idle4 = spr_playerN_idledance
+				spr_idle5 = spr_playerN_idleballoon
+				spr_idle6 = spr_playerN_idlemask
+
+
+				spr_piledriver = spr_playerN_piledriver
+				spr_piledriverland = spr_playerN_piledriverland
+				spr_charge = spr_playerN_charge
+				spr_mach3jump = spr_playerN_mach3jump
+				spr_mach4 = spr_playerN_mach3
+
+
+				spr_machclimbwall = spr_playerN_climbwall
+				spr_dive = spr_playerN_dive
+				spr_machroll = spr_playerN_machroll
+				spr_hitwall = spr_playerN_mach3hitwall
+
+
+				spr_superjumpland = spr_playerN_Sjumpland
+				spr_walljumpstart = spr_playerN_walljumpstart
+
+				spr_superjumpprep = spr_playerN_Sjumpstart
+				spr_superjump = spr_playerN_Sjump
+				spr_machfreefall = spr_playerN_fall
+				spr_mach3hit = spr_playerN_machpunch1
+
+				spr_knightpepwalk = spr_playerN_knightmove
+				spr_knightpepjump = spr_playerN_knightjump
+				spr_knightpepfall = spr_playerN_knightfall
+				spr_knightpepidle = spr_playerN_knightidle
+				spr_knightpepjumpstart = spr_playerN_knightjumpstart
+				spr_knightpepthunder = spr_playerN_knightstart
+				spr_knightpepland = spr_playerN_knightland
+				spr_knightpepdownslope = spr_playerN_knightdownslope
+				 spr_knightpepstart =  spr_playerN_knightsword
+				spr_knightpepcharge = spr_playerN_knightslide
+
+				spr_bodyslamstart = spr_playerN_bodyslamstart
+				spr_bodyslamfall = spr_playerN_bodyslam
+				 spr_bodyslamland = spr_playerN_bodyslamland
+				 spr_crazyrun = spr_playerN_crazyrun
+ 
+				 spr_bombpeprun = spr_playerN_bomb
+				spr_bombpepintro = spr_playerN_bombstart
+				spr_bombpeprunabouttoexplode = spr_playerN_bombabouttoexplode
+				spr_bombpepend = spr_playerN_bombend
+ 
+
+				spr_fireass = spr_playerN_fireass
+				spr_fireassground = spr_playerN_fireassground
+				spr_fireassend = spr_playerN_fireassend
+				spr_tumblestart = spr_playerN_tumblestart
+				spr_tumbleend = spr_playerN_tumbleend
+				spr_tumble = spr_playerN_tumble
+				spr_stunned = spr_playerN_stunned
+
+				spr_downpizzabox = spr_playerN_downpizzabox
+				spr_uppizzabox = spr_playerN_uppizzabox
+
+				spr_taunt = spr_playerN_dab
+				spr_slipnslide = spr_playerN_slipnslide
+
+
+				spr_mach3boost = spr_playerN_mach3boost
+				spr_facehurtup = spr_playerN_facehurtup
+				spr_facehurt = spr_playerN_facehurt
+
+
+
+				spr_walljumpend = spr_playerN_walljumpend
+				spr_suplexdash = spr_playerN_suplexgrab
+				spr_suplexdashjumpstart = spr_playerN_suplexgrabjumpstart
+				spr_suplexdashjump = spr_playerN_suplexgrabjump
+				spr_shotgunsuplexdash = spr_playerN_minigundash
+
+				spr_rollgetup = spr_playerN_rollgetup
+
+				spr_superjumppreplight = spr_playerN_Sjumpprep
+				spr_superjumpright =  spr_playerN_Sjumpmoveright
+				spr_superjumpleft = spr_playerN_Sjumpmoveleft
+
+				spr_swingding = spr_playerN_swingding
+				spr_swingdingend = spr_playerN_swingdingend
+				spr_haulingjump = spr_playerN_haulingjump
+				spr_haulingidle = spr_playerN_haulingidle
+				spr_haulingwalk = spr_playerN_haulingmove
+				spr_haulingstart = spr_playerN_haulingstart
+				spr_haulingfall = spr_playerN_haulingfall
+				spr_haulingland = spr_playerN_haulingland
+				spr_uppercutfinishingblow = spr_playerN_uppercut
+				spr_finishingblow1 = spr_playerN_finishingblow1
+				spr_finishingblow2 = spr_playerN_finishingblow2
+				spr_finishingblow3 = spr_playerN_finishingblow3
+				spr_finishingblow4 = spr_playerN_finishingblow4
+				spr_finishingblow5 = spr_playerN_finishingblow5
+
+				spr_winding = spr_playerN_winding
+				spr_3hpwalk = spr_playerN_angrymove
+				spr_3hpidle = spr_playerN_angryidle
+				spr_panic = spr_playerN_panicidle
+
+				spr_facestomp = spr_playerN_machfreefall1
+				spr_freefall = spr_playerN_machfreefall2
+
+				spr_shotgunland = spr_playerN_minigunland
+				spr_shotgunshoot = spr_playerN_minigunshoot
+				spr_shotgunidle = spr_playerN_minigunidle
+				spr_shotgunwalk = spr_playerN_minigunmove
+				spr_shotgunfall = spr_playerN_minigunfall
+				spr_shotgunjump = spr_playerN_minigunjump
+				spr_shotgunjump1 = spr_playerN_minigunslamprep
+				spr_shotgunjump2 = spr_playerN_minigunslamland
+				spr_shotgunjump3 = spr_playerN_minigunslam
+				spr_shotgunpullout = spr_playerN_minigunstart
+				spr_shotgunduck = spr_playerN_minigunduck
+				spr_shotguncrawl = spr_playerN_miniguncrawl
+				spr_shotgungoduck = spr_playerN_minigungoduck
+
+				spr_fightball = spr_playerN_fightball
+				spr_squished = spr_playerN_squished
+
+				spr_taunt = spr_playerN_taunt
+				spr_supertaunt1 = spr_playerN_supertaunt1
+				spr_supertaunt2 = spr_playerN_supertaunt2
+				spr_supertaunt3 = spr_playerN_supertaunt3
+				spr_supertaunt4 = spr_playerN_supertaunt4
+
+				spr_rideweenie = spr_playerN_weeniemount
+				spr_barrelroll = spr_playerN_barrel
+				spr_ghostidle = spr_playerN_ghostidle
+				spr_ghostjump = spr_playerN_ghostjump
+				spr_ghostend = spr_playerN_ghostend
+				spr_ghostdash = spr_playerN_ghostdash
+				spr_scaredjump1 = spr_playerN_scaredjump1
+				spr_scaredjump2 = spr_playerN_scaredjump2
+				spr_scaredjump3 = spr_playerN_scaredjump3
+				
+				spr_parry1 = spr_playerN_parry1;
+				spr_parry2 = spr_playerN_parry2;
+				spr_parry3 = spr_playerN_parry3;
+				
+				spr_Current = spr_playerN_current;
+				spr_suplexcancel = spr_playerN_suplexcancel;
+				spr_suplexbump = spr_playerN_suplexbump;
+				
+				spr_firemouth = spr_playerN_firemouth;
+				spr_firemouthintro = spr_playerN_firemouthintro;
+				spr_firemouthshoot = spr_playerN_firemouthshoot;
+				spr_firemouthend = spr_playerN_firemouthend;
+				
+				spr_boxxed_intro = spr_playerN_boxxedintro;
+				spr_boxxed_idle = spr_playerN_boxxedidle;
+				spr_boxxed_walk = spr_playerN_boxxedmove;
+				spr_boxxed_air = spr_playerN_boxxedfall;
+				spr_boxxed_dash = spr_playerN_boxxeddash;
+				spr_boxxed_jump = spr_playerN_boxxedjump;
+				
+				spr_dashpadmach = spr_playerN_dashpad;
+				spr_dead = spr_playerN_deathend
+				
+				spr_rocketstart = spr_playerN_rocketstart;
+				spr_rocket = spr_playerN_rocket;
+				spr_rockethitwall = spr_playerN_rockethitwall;
+				
+				spr_slipbanan1 = spr_playerN_slipbanan1;
+				spr_slipbanan2 = spr_playerN_slipbanan2;
+				
+				spr_cheeseballed = spr_playerN_cheeseball;
+				spr_faceplant = spr_playerN_spin;
+				
+				spr_rageidle = spr_playerN_rageidle;
+				spr_ragemove = spr_playerN_ragemove;
+				
+				spr_breakdanceuppercut = spr_playerN_tumble;
+				spr_breakdanceuppercutend = spr_playerN_fall;
+				
+				spr_suplexland = spr_playerN_suplexland;
+				
+				spr_pmortwalk = spr_player_mortwalk;
+				spr_pmortidle = spr_player_mortidle;
+				spr_pmortjump = spr_playerN_mortjump;
+				spr_pmortattack = spr_player_mortattack;
+				spr_pmortjumpstart = spr_playerN_mortjump;
+				spr_pmortland = spr_player_mortland;
+				spr_pmortthrow = spr_playerN_mortthrow;
+				
+				spr_superspringplayer = spr_playerN_superspring;
+				
+				spr_pistolidle = spr_playerN_idle;
+				spr_pistolwalk = spr_playerN_move;
+				spr_pistolshot = spr_playerN_noisebombkick;
+				spr_pistolshotend = spr_playerN_idle;
+				
+				spr_golfidle = spr_playerN_golfidle;
+				spr_golflook1 = spr_playerN_golflook1;
+				spr_golflook2 = spr_playerN_golflook2;
+				spr_golflook3 = spr_playerN_golflook3;
+				spr_golfswing = spr_playerN_golfswing;
+				
+				spr_palette = spr_noisepalette
+				break;
+	
+		#endregion
 		#region PIZZELLE
 		
 			case "SP":
@@ -1386,6 +1942,284 @@ function scr_characterspr(char = character)
 				snd_fireass = sfx_screamSP;
 				break;
 		
+		#endregion
+		#region CHEMSTOON
+		
+			case "CT":
+				spr_idle = spr_playerN_idle
+				spr_move = spr_playerN_move
+				spr_crawl = spr_playerN_crawl
+				spr_idle = spr_playerN_idle
+				spr_hurt = spr_playerN_hurt
+				spr_jump = spr_playerN_jump
+				spr_jump2 = spr_player_jump2
+				spr_fall = spr_playerN_fall
+				spr_fall2 = spr_player_fall2
+				spr_crouch = spr_playerN_crouch
+				spr_crouchjump = spr_playerN_crouchjump
+				spr_crouchfall = spr_playerN_crouchfall
+				spr_couchstart = spr_playerN_crouchstart
+				spr_bump = spr_playerN_bump
+				spr_land = spr_playerN_land
+				spr_land2 = spr_playerN_land2
+				spr_lookdoor = spr_playerN_lookdoor
+				spr_walkfront = spr_playerN_walkfront
+				spr_victory = spr_playerN_victory
+				spr_Ladder = spr_playerN_ladder
+				spr_laddermove = spr_playerN_laddermove
+				spr_ladderdown = spr_playerN_ladderdown
+				spr_keyget = spr_playerN_keyget
+				spr_keyget_ss = spr_playerN_keyget_ss
+				spr_crouchslip = spr_playerN_crouchslip
+
+				spr_mach1 = spr_playerN_mach1
+				spr_mach = spr_playerN_mach
+				spr_secondjump1 = spr_playerN_secondjump1
+				spr_secondjump2 = spr_playerN_secondjump2
+				spr_machslidestart = spr_playerN_machslidestart
+				spr_machslide = spr_playerN_machslide
+				spr_machslideend = spr_playerN_machslideend
+				spr_machslideboost = spr_playerN_machslideboost
+
+				spr_land2 = spr_playerN_land2
+				spr_punch = spr_playerN_punch
+				spr_backkick = spr_playerN_backkick
+				spr_shoulder = spr_playerN_shoulder
+				spr_uppunch = spr_playerN_uppunch
+				spr_stomp = spr_playerN_stomp
+				spr_stompprep = spr_playerN_stompprep
+				spr_crouchslide = spr_playerN_crouchslip
+				spr_bump = spr_playerN_bump
+				spr_victory = spr_playerN_victory
+				spr_hurt = spr_playerN_hurt
+				spr_climbwall = spr_playerN_climbwall
+				spr_grab = spr_playerN_grab
+
+				spr_mach2jump = spr_playerN_mach2jump
+				spr_Timesup = spr_playerN_timesup
+				spr_deathstart = spr_playerN_deathstart
+				spr_deathend = spr_playerN_deathend
+				spr_machpunch1 = spr_playerN_machpunch1
+				spr_machpunch2 = spr_playerN_machpunch2
+				spr_hurtjump = spr_playerN_hurtjump
+				spr_entergate = spr_playerN_entergate
+				spr_gottreasure = spr_playerN_gottreasure
+				spr_bossintro = spr_playerN_bossintro
+				spr_hurtidle = spr_playerN_hurtidle
+				spr_hurtwalk = spr_playerN_hurtwalk
+				spr_suplexmash1 = spr_playerN_suplexmash1
+				spr_suplexmash2 = spr_playerN_suplexmash2
+				spr_suplexmash3 = spr_playerN_suplexmash3
+				spr_suplexmash4 = spr_playerN_suplexmash4
+				spr_tackle = spr_playerN_tackle
+				spr_airdash1 = spr_playerN_airdash1
+				spr_airdash2 = spr_playerN_airdash2
+
+				spr_idle1 = spr_playerN_idleface
+				spr_idle2 = spr_playerN_idlegun
+				spr_idle3 = spr_playerN_idlesmoke
+				spr_idle4 = spr_playerN_idledance
+				spr_idle5 = spr_playerN_idleballoon
+				spr_idle6 = spr_playerN_idlemask
+
+
+				spr_piledriver = spr_playerN_piledriver
+				spr_piledriverland = spr_playerN_piledriverland
+				spr_charge = spr_playerN_charge
+				spr_mach3jump = spr_playerN_mach3jump
+				spr_mach4 = spr_playerN_mach3
+
+
+				spr_machclimbwall = spr_playerN_climbwall
+				spr_dive = spr_playerN_dive
+				spr_machroll = spr_playerN_machroll
+				spr_hitwall = spr_playerN_mach3hitwall
+
+
+				spr_superjumpland = spr_playerN_Sjumpland
+				spr_walljumpstart = spr_playerN_walljumpstart
+
+				spr_superjumpprep = spr_playerN_Sjumpstart
+				spr_superjump = spr_playerN_Sjump
+				spr_machfreefall = spr_playerN_fall
+				spr_mach3hit = spr_playerN_machpunch1
+
+				spr_knightpepwalk = spr_playerN_knightmove
+				spr_knightpepjump = spr_playerN_knightjump
+				spr_knightpepfall = spr_playerN_knightfall
+				spr_knightpepidle = spr_playerN_knightidle
+				spr_knightpepjumpstart = spr_playerN_knightjumpstart
+				spr_knightpepthunder = spr_playerN_knightstart
+				spr_knightpepland = spr_playerN_knightland
+				spr_knightpepdownslope = spr_playerN_knightdownslope
+				 spr_knightpepstart =  spr_playerN_knightsword
+				spr_knightpepcharge = spr_playerN_knightslide
+
+				spr_bodyslamstart = spr_playerN_bodyslamstart
+				spr_bodyslamfall = spr_playerN_bodyslam
+				 spr_bodyslamland = spr_playerN_bodyslamland
+				 spr_crazyrun = spr_playerN_crazyrun
+ 
+				 spr_bombpeprun = spr_playerN_bomb
+				spr_bombpepintro = spr_playerN_bombstart
+				spr_bombpeprunabouttoexplode = spr_playerN_bombabouttoexplode
+				spr_bombpepend = spr_playerN_bombend
+ 
+
+				spr_fireass = spr_playerN_fireass
+				spr_fireassground = spr_playerN_fireassground
+				spr_fireassend = spr_playerN_fireassend
+				spr_tumblestart = spr_playerN_tumblestart
+				spr_tumbleend = spr_playerN_tumbleend
+				spr_tumble = spr_playerN_tumble
+				spr_stunned = spr_playerN_stunned
+
+				spr_downpizzabox = spr_playerN_downpizzabox
+				spr_uppizzabox = spr_playerN_uppizzabox
+
+				spr_taunt = spr_playerN_dab
+				spr_slipnslide = spr_playerN_slipnslide
+
+
+				spr_mach3boost = spr_playerN_mach3boost
+				spr_facehurtup = spr_playerN_facehurtup
+				spr_facehurt = spr_playerN_facehurt
+
+
+
+				spr_walljumpend = spr_playerN_walljumpend
+				spr_suplexdash = spr_playerN_suplexgrab
+				spr_suplexdashjumpstart = spr_playerN_suplexgrabjumpstart
+				spr_suplexdashjump = spr_playerN_suplexgrabjump
+				spr_shotgunsuplexdash = spr_playerN_minigundash
+
+				spr_rollgetup = spr_playerN_rollgetup
+
+				spr_superjumppreplight = spr_playerN_Sjumpprep
+				spr_superjumpright =  spr_playerN_Sjumpmoveright
+				spr_superjumpleft = spr_playerN_Sjumpmoveleft
+
+				spr_swingding = spr_playerN_swingding
+				spr_swingdingend = spr_playerN_swingdingend
+				spr_haulingjump = spr_playerN_haulingjump
+				spr_haulingidle = spr_playerN_haulingidle
+				spr_haulingwalk = spr_playerN_haulingmove
+				spr_haulingstart = spr_playerN_haulingstart
+				spr_haulingfall = spr_playerN_haulingfall
+				spr_haulingland = spr_playerN_haulingland
+				spr_uppercutfinishingblow = spr_playerN_uppercut
+				spr_finishingblow1 = spr_playerN_finishingblow1
+				spr_finishingblow2 = spr_playerN_finishingblow2
+				spr_finishingblow3 = spr_playerN_finishingblow3
+				spr_finishingblow4 = spr_playerN_finishingblow4
+				spr_finishingblow5 = spr_playerN_finishingblow5
+
+				spr_winding = spr_playerN_winding
+				spr_3hpwalk = spr_playerN_angrymove
+				spr_3hpidle = spr_playerN_angryidle
+				spr_panic = spr_playerN_panicidle
+
+				spr_facestomp = spr_playerN_machfreefall1
+				spr_freefall = spr_playerN_machfreefall2
+
+				spr_shotgunland = spr_playerN_minigunland
+				spr_shotgunshoot = spr_playerN_minigunshoot
+				spr_shotgunidle = spr_playerN_minigunidle
+				spr_shotgunwalk = spr_playerN_minigunmove
+				spr_shotgunfall = spr_playerN_minigunfall
+				spr_shotgunjump = spr_playerN_minigunjump
+				spr_shotgunjump1 = spr_playerN_minigunslamprep
+				spr_shotgunjump2 = spr_playerN_minigunslamland
+				spr_shotgunjump3 = spr_playerN_minigunslam
+				spr_shotgunpullout = spr_playerN_minigunstart
+				spr_shotgunduck = spr_playerN_minigunduck
+				spr_shotguncrawl = spr_playerN_miniguncrawl
+				spr_shotgungoduck = spr_playerN_minigungoduck
+
+				spr_fightball = spr_playerN_fightball
+				spr_squished = spr_playerN_squished
+
+				spr_taunt =spr_playerN_taunt
+				spr_supertaunt1 = spr_playerN_supertaunt1
+				spr_supertaunt2 = spr_playerN_supertaunt2
+				spr_supertaunt3 = spr_playerN_supertaunt3
+				spr_supertaunt4 = spr_playerN_supertaunt4
+
+				spr_rideweenie = spr_playerN_weeniemount
+				spr_barrelroll = spr_playerN_barrel
+				spr_ghostidle = spr_playerN_ghostidle
+				spr_ghostjump = spr_playerN_ghostjump
+				spr_ghostend = spr_playerN_ghostend
+				spr_ghostdash = spr_playerN_ghostdash
+				spr_scaredjump1 = spr_playerN_scaredjump1
+				spr_scaredjump2 = spr_playerN_scaredjump2
+				spr_scaredjump3 = spr_playerN_scaredjump3
+				
+				spr_parry1 = spr_playerN_parry1;
+				spr_parry2 = spr_playerN_parry2;
+				spr_parry3 = spr_playerN_parry3;
+				
+				spr_Current = spr_playerN_current;
+				spr_suplexcancel = spr_playerN_suplexcancel;
+				spr_suplexbump = spr_playerN_suplexbump;
+				
+				spr_firemouth = spr_playerN_firemouth;
+				spr_firemouthintro = spr_playerN_firemouthintro;
+				spr_firemouthshoot = spr_playerN_firemouthshoot;
+				spr_firemouthend = spr_playerN_firemouthend;
+				
+				spr_boxxed_intro = spr_playerN_boxxedintro;
+				spr_boxxed_idle = spr_playerN_boxxedidle;
+				spr_boxxed_walk = spr_playerN_boxxedmove;
+				spr_boxxed_air = spr_playerN_boxxedfall;
+				spr_boxxed_dash = spr_playerN_boxxeddash;
+				spr_boxxed_jump = spr_playerN_boxxedjump;
+				
+				spr_dashpadmach = spr_playerN_dashpad;
+				spr_dead = spr_playerN_deathend
+				
+				spr_rocketstart = spr_playerN_rocketstart;
+				spr_rocket = spr_playerN_rocket;
+				spr_rockethitwall = spr_playerN_rockethitwall;
+				
+				spr_slipbanan1 = spr_playerN_slipbanan1;
+				spr_slipbanan2 = spr_playerN_slipbanan2;
+				
+				spr_cheeseballed = spr_playerN_cheeseball;
+				spr_faceplant = spr_playerN_spin;
+				
+				spr_rageidle = spr_playerN_rageidle;
+				spr_ragemove = spr_playerN_ragemove;
+				
+				spr_breakdanceuppercut = spr_playerN_tumble;
+				spr_breakdanceuppercutend = spr_playerN_fall;
+				
+				spr_suplexland = spr_playerN_suplexland;
+				
+				spr_pmortwalk = spr_player_mortwalk;
+				spr_pmortidle = spr_player_mortidle;
+				spr_pmortjump = spr_playerN_mortjump;
+				spr_pmortattack = spr_player_mortattack;
+				spr_pmortjumpstart = spr_playerN_mortjump;
+				spr_pmortland = spr_player_mortland;
+				spr_pmortthrow = spr_playerN_mortthrow;
+				
+				spr_superspringplayer = spr_playerN_superspring;
+				
+				spr_pistolidle = spr_playerN_idle;
+				spr_pistolwalk = spr_playerN_move;
+				spr_pistolshot = spr_playerN_noisebombkick;
+				spr_pistolshotend = spr_playerN_idle;
+				
+				spr_golfidle = spr_playerN_golfidle;
+				spr_golflook1 = spr_playerN_golflook1;
+				spr_golflook2 = spr_playerN_golflook2;
+				spr_golflook3 = spr_playerN_golflook3;
+				spr_golfswing = spr_playerN_golfswing;
+				
+				spr_palette = spr_noisepalette
+				break;
+	
 		#endregion
 	}
 	pal_swap_index_palette(spr_palette);
