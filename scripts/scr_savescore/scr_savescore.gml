@@ -86,6 +86,8 @@ function scr_levelname()
 		else
 			namestring = "snickchallenge";
 	}
+	else if string_startswith(room_get_name(room), "boss_room1")
+		namestring = "noiseboss";
 	else if string_startswith(room_get_name(room), "floor1_")
 		namestring = "desert";
 	else if string_startswith(room_get_name(room), "floor2_")
