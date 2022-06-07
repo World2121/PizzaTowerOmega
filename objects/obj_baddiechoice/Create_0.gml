@@ -36,7 +36,8 @@ selarray = [
 	[obj_weeniesquire, "WEENIE SQUIRE", "HOG RIDER"],
 	[obj_thug_red, "SHRIMP THUG", "Stereotypical street criminal, for the chinese themed level."],
 	[obj_gumslime, "GUMSLIME", "Totally useless. Cannon fodder."],
-	[obj_smurfknight, "SMURFKNIGHT", "Forknight! Now with diabetes."]
+	[obj_smurfknight, "SMURFKNIGHT", "Forknight! Now with diabetes."],
+	[obj_fatfuck, "SPEARER", "Who let this fatass here?!"]
 ]
 spr_idle = -1;
 

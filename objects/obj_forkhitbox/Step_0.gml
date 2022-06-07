@@ -21,6 +21,7 @@ if instance_exists(ID)
 		{
 			if object_index == obj_coolpineapple
 			or object_index == obj_forknight
+			or object_index == obj_fatfuck
 			or object_index == obj_smurfknight
 			or object_index == obj_indiancheese
 			or object_index == obj_noisey

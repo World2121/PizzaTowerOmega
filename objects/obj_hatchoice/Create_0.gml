@@ -4,7 +4,8 @@ selarray = [
 	[spr_nohat, "NO HAT", "Don't you already have a hat?"],
 	[spr_cowboyhat1, "COWBOY HAT", "Yeehaw."],
 	[spr_hat_snickcrown, "SNICK CROWN", "For the king of the 4 Snicks."],
-	[spr_hat_cowboy2, "SHERIFF HAT", "Weirdly western."]
+	[spr_hat_cowboy2, "SHERIFF HAT", "Weirdly western."],
+	[spr_chemshat, "Maroon Fedora", "Weirdly smeels like a voidcat."]
 ];
 spr_idle = selarray[0][0];
 
