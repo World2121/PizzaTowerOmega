@@ -151,6 +151,7 @@ spr_palette = spr_peppalette
 character = "P"
 
 scr_characterspr()
+scr_tvspr()
 paletteselect = check_shaders()
 if repaintjokebuild
 	paletteselect = 0

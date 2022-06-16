@@ -245,7 +245,7 @@
   "nineSlice": null,
   "parent": {
     "name": "peppino",
-    "path": "folders/Sprites/HUD/new hud/tv/peppino.yy",
+    "path": "folders/Sprites/HUD/new hud/tv/Pizza Tower/peppino.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tv_idleanim1",

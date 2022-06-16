@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "noise",
-    "path": "folders/Sprites/HUD/new hud/tv/noise.yy",
+    "path": "folders/Sprites/HUD/new hud/tv/Pizza Tower/noise.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tv_bombpepN",

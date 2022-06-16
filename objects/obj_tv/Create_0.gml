@@ -53,6 +53,7 @@ bubbleindex = 0
 bubblespr = noone
 idleanim = 180
 collect_shake = 0
+scr_tvspr()
 
 sugary = false
 

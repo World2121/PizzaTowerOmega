@@ -322,10 +322,10 @@ else
 	    case states.normal:
 			if animset != spr_tv_open
 	        {
-		        idlespr = spr_tv_idle;
+		        idlespr = spr_tvidle;
 			
 				if !instance_exists(obj_player1)
-				or (obj_player1.character != "P" && obj_player1.character != "N" && obj_player1.character != "SP")
+				or (obj_player1.character != "P" && obj_player1.character != "N" && obj_player1.character != "S" && obj_player1.character != "V" && obj_player1.character != "PM" && obj_player1.character != "A" && obj_player1.character != "SP")
 					idlespr = spr_tv_placeholder;
 				else
 				{
@@ -356,69 +356,75 @@ else
 							with obj_player1
 			                {
 			                    if shotgunAnim
-			                        other.idlespr = spr_tv_shotgun;
+			                        other.idlespr = spr_tvgun;
+								else if sprite_index = spr_mach4
+									other.idlespr = spr_tvmach;
+								else if sprite_index = spr_crazyrun
+									other.idlespr = spr_tvcrazyrun;
+								else if state = states.keyget or state = states.victory
+									other.idlespr = spr_victory;
 			                    else if global.mort
-			                        other.idlespr = spr_tv_mort;
+			                        other.idlespr = spr_tvmort;
 								else if skateboarding
-									other.idlespr = spr_tv_clown;
+									other.idlespr = spr_tvclown;
 			                }
 			                break;
 						
 			            case states.knightpep:
 			            case states.knightpepslopes:
 			            case states.knightpepattack:
-			                idlespr = spr_tv_knight;
+			                idlespr = spr_tvknights;
 			                break;
 			
 			            case states.bombpep:
-			                idlespr = spr_tv_bombpep;
+			                idlespr = spr_tvbombs;
 			                break;
 			
 			            case states.fireass:
-			                idlespr = spr_tv_fireass;
+			                idlespr = spr_tvfireass;
 							with obj_player1
 							{
 								if sprite_index == spr_scaredjump1
 								or sprite_index == spr_scaredjump2
 								or sprite_index == spr_scaredjump3
-									other.idlespr = spr_tv_scaredjump;
+									other.idlespr = spr_tvscaredjump;
 							}
 			                break;
 			
 			            case states.tumble:
-			                idlespr = spr_tv_tumble;
+			                idlespr = spr_tvtumble;
 			                break;
 			
 			            case states.firemouth:
-			                idlespr = spr_tv_firemouth;
+			                idlespr = spr_tvfiremouth;
 			                break;
 			
 			            case states.ghost:
-			                idlespr = spr_tv_ghost;
+			                idlespr = spr_tvghost;
 			                break;
 			
 			            case states.stunned:
 							with obj_player1
 							{
 								if sprite_index == spr_squished
-									other.idlespr = spr_tv_squished;
+									other.idlespr = spr_tvsquished;
 							}
 			                break;
 			
 			            case states.barrel:
-			                idlespr = spr_tv_barrel;
+			                idlespr = spr_tvbarrel;
 			                break;
 			
 			            case states.golf:
-			                idlespr = spr_tv_golf;
+			                idlespr = spr_tvgolf;
 			                break;
 						
 			            case states.rocket:
-			                idlespr = spr_tv_rocket;
+			                idlespr = spr_tvrocket;
 			                break;
 						
 			            case states.cheeseball:
-			                idlespr = spr_tv_cheeseball;
+			                idlespr = spr_tvcheeseball;
 			                break;
 						
 			            case states.cotton:
@@ -429,11 +435,11 @@ else
 			            case states.cheesepepstick:
 			            case states.cheesepepstickside:
 			            case states.cheesepepstickup:
-			                idlespr = spr_tv_cheesepep
+			                idlespr = spr_tvcheesepep
 			                break
 						
 			            case states.boxxedpep:
-			                idlespr = spr_tv_boxxedpep
+			                idlespr = spr_tvboxxed
 			                break
 			        }
 				}
@@ -458,7 +464,7 @@ else
 							animset = idlespr;
 						break;
 					
-		            case spr_tv_idle:
+		            case spr_tvidle:
 		                if idleanim > 0
 		                    idleanim--;
 		                if animset != idlespr
@@ -466,25 +472,25 @@ else
 				
 		                if idleanim <= 0 && floor(image_index) == image_number - 1
 		                {
-		                    animset = choose(spr_tv_idleanim1, spr_tv_idleanim2);
+		                    animset = choose(spr_tvidleanim1, spr_tvidleanim2);
 		                    image_index = 0
 		                }
 		                break
 				
-		            case spr_tv_idleanim1:
-		            case spr_tv_idleanim2:
+		            case spr_tvidleanim1:
+		            case spr_tvidleanim2:
 		                if floor(image_index) == image_number - 1
 		                {
 		                    animset = idlespr;
 		                    idleanim = 240 + 60 * irandom_range(-1, 2);
 		                }
-		                if idlespr != spr_tv_idle
+		                if idlespr != spr_tvidle
 		                    animset = idlespr;
 		                break;
 					
 		            default:
 						if ds_list_empty(tvprompts_list)
-						or (tvsprite == spr_tv_idleanim1 or tvsprite == spr_tv_idleanim2)
+						or (tvsprite == spr_tvidleanim1 or tvsprite == spr_tvidleanim2)
 							animset = idlespr;
 						break;
 		        }
@@ -528,7 +534,7 @@ else
 					
 					if animset != spr_tv_open
 					{
-						if tvsprite != spr_tv_idleanim1 && tvsprite != spr_tv_idleanim2
+						if tvsprite != spr_tvidleanim1 && tvsprite != spr_tvidleanim2
 							animset = tvsprite;
 						
 						if prompt_buffer > 0
