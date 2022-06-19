@@ -61,6 +61,7 @@ switch sel[1]
 			["DR.B.B.", "Snoo-ping( )as usual, I see."],
 			["NOSE", "It is rumored that this skin allows you to moon jump.\nWe've yet to prove that theory."],
 			["SALAD", "You fat bald bastard you piece of subhuman trash\n2000 years of constant human evolution to create a hairless fucking coconut"],
+			["PISSTOON", "Who the fuck shit on the floor?"],
 		];
 		break;
 	
@@ -119,6 +120,17 @@ switch sel[1]
 			selarray[4][1] = "No, not that one."; // snickette
 			selarray[14][1] = "Hilarious."; // elmo
 		}
+		break;
+		
+	case "M":
+		spr_palette = spr_manpalette;
+		spr_idle = spr_playerM_idle;
+		selarray = [
+			["PEPPERMAN", "A giant red pepper with limbs."],
+			["2 HP", "Peppers are a good pumpkin replacement."],
+			["1 HP", "568% vitamin C!"],
+			["BANANA", "Potassium."],
+		];
 		break;
 	
 	case "SP":
@@ -204,6 +216,29 @@ switch sel[1]
 			["VANILLA 2", "I TOLD YOU NOT TO KNOW."],
 		];
 	break;
+	case "CT":
+		spr_palette = spr_chemspalette;
+		spr_idle = spr_playerCT_idle;
+		selarray = [
+			["CHEMSTOON", "I swear, he's not a furry! :tro"],
+			["OG CHEMS", "For old people. (Like World2121)"],
+			["SQUIDTOON", "He hates his life."],
+			["GORETOON", "Not the ultamite life form, but the ultamite loser!"],
+			["GAMEBOY", "SUPER CHEMSTOON ON THE GAMEBOY ADVANCED SP! WAAAAAAAAAAAHOO"],
+			["GRINCHTOON", "Let's just say his stomach grew three sizes that day!"],
+			["SAGE", "You'll Shit Bricks"],
+			["NEON", "It's too hard. :("],
+			["SHITTOON", "He peed on the floor."],
+			["TEST", "Kill, /nme!"],
+		]
+		break;
+		case "PT":
+		spr_palette = spr_pisstoonpalette;
+		spr_idle = spr_playerPT_idle;
+		selarray = [
+			["PISSTOON", "You must find out who shit on the floor..."],
+		]
+		break;
 	
 	#region joke
 	
@@ -253,17 +288,6 @@ switch sel[1]
 	#endregion
 	#region scrapped (for now)
 	
-	case "M":
-		spr_palette = spr_manpalette;
-		spr_idle = spr_playerM_idle;
-		selarray = [
-			["PEPPERMAN", "A giant red pepper with limbs."],
-			["2 HP", "Peppers are a good pumpkin replacement."],
-			["1 HP", "568% vitamin C!"],
-			["BANANA", "Potassium."],
-		];
-		break;
-	
 	case "W":
 		spr_palette = spr_peppalette;
 		spr_idle = spr_playerW_idle;
@@ -289,6 +313,14 @@ switch sel[1]
 			locked = gms_ini_player_read("saveData", "customlock") == sel[1];
 		else
 			locked = false;
+		break;
+	
+	case "PT":
+		locked = true;
+		break;
+		
+	case "D":
+		locked = true;
 		break;
 	
 	case "M":

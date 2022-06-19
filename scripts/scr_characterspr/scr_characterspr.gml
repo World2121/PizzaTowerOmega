@@ -2169,14 +2169,14 @@ function scr_characterspr(char = character)
 		#region CHEMSTOON
 		
 			case "CT":
-				spr_idle = spr_playerN_idle
-				spr_move = spr_playerN_move
+				spr_idle = spr_playerCT_idle
+				spr_move = spr_playerCT_walk
 				spr_crawl = spr_playerN_crawl
-				spr_idle = spr_playerN_idle
+				spr_idle = spr_playerCT_idle
 				spr_hurt = spr_playerN_hurt
-				spr_jump = spr_playerN_jump
+				spr_jump = spr_playerCT_jump
 				spr_jump2 = spr_player_jump2
-				spr_fall = spr_playerN_fall
+				spr_fall = spr_playerCT_fall
 				spr_fall2 = spr_player_fall2
 				spr_crouch = spr_playerN_crouch
 				spr_crouchjump = spr_playerN_crouchjump
@@ -2195,8 +2195,8 @@ function scr_characterspr(char = character)
 				spr_keyget_ss = spr_playerN_keyget_ss
 				spr_crouchslip = spr_playerN_crouchslip
 
-				spr_mach1 = spr_playerN_mach1
-				spr_mach = spr_playerN_mach
+				spr_mach1 = spr_playerCT_mach1
+				spr_mach = spr_playerCT_mach2
 				spr_secondjump1 = spr_playerN_secondjump1
 				spr_secondjump2 = spr_playerN_secondjump2
 				spr_machslidestart = spr_playerN_machslidestart
@@ -2250,10 +2250,10 @@ function scr_characterspr(char = character)
 				spr_piledriverland = spr_playerN_piledriverland
 				spr_charge = spr_playerN_charge
 				spr_mach3jump = spr_playerN_mach3jump
-				spr_mach4 = spr_playerN_mach3
+				spr_mach4 = spr_playerCT_mach3
 
 
-				spr_machclimbwall = spr_playerN_climbwall
+				spr_machclimbwall = spr_playerCT_wallclimb
 				spr_dive = spr_playerN_dive
 				spr_machroll = spr_playerN_machroll
 				spr_hitwall = spr_playerN_mach3hitwall
@@ -2275,15 +2275,15 @@ function scr_characterspr(char = character)
 				spr_knightpepthunder = spr_playerN_knightstart
 				spr_knightpepland = spr_playerN_knightland
 				spr_knightpepdownslope = spr_playerN_knightdownslope
-				 spr_knightpepstart =  spr_playerN_knightsword
+				spr_knightpepstart =  spr_playerN_knightsword
 				spr_knightpepcharge = spr_playerN_knightslide
 
 				spr_bodyslamstart = spr_playerN_bodyslamstart
 				spr_bodyslamfall = spr_playerN_bodyslam
-				 spr_bodyslamland = spr_playerN_bodyslamland
-				 spr_crazyrun = spr_playerN_crazyrun
+				spr_bodyslamland = spr_playerN_bodyslamland
+				spr_crazyrun = spr_playerCT_crazyrun
  
-				 spr_bombpeprun = spr_playerN_bomb
+				spr_bombpeprun = spr_playerN_bomb
 				spr_bombpepintro = spr_playerN_bombstart
 				spr_bombpeprunabouttoexplode = spr_playerN_bombabouttoexplode
 				spr_bombpepend = spr_playerN_bombend
@@ -2362,7 +2362,7 @@ function scr_characterspr(char = character)
 				spr_fightball = spr_playerN_fightball
 				spr_squished = spr_playerN_squished
 
-				spr_taunt =spr_playerN_taunt
+				spr_taunt = spr_playerN_taunt
 				spr_supertaunt1 = spr_playerN_supertaunt1
 				spr_supertaunt2 = spr_playerN_supertaunt2
 				spr_supertaunt3 = spr_playerN_supertaunt3
@@ -2440,7 +2440,7 @@ function scr_characterspr(char = character)
 				spr_golflook3 = spr_playerN_golflook3;
 				spr_golfswing = spr_playerN_golfswing;
 				
-				spr_palette = spr_noisepalette
+				spr_palette = spr_chemspalette
 				break;
 	
 		#endregion

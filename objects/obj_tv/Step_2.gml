@@ -32,10 +32,20 @@ or (instance_exists(obj_gms) && global.__chat)
 	visible = false
 	if global.gameplay != 0
 	{
-	    animset = spr_tv_off;
-	    tvsprite = spr_tv_idle;
-		image_index = 0;
-		state = states.transitioncutscene;
+		if character = "CT"
+		{
+			animset = spr_tvCT_off;
+			tvsprite = spr_tvCT_idle;
+			image_index = 0;
+			state = states.transitioncutscene;
+		}
+		else
+		{
+			animset = spr_tv_off;
+			tvsprite = spr_tv_idle;
+			image_index = 0;
+			state = states.transitioncutscene;
+		}
 	}
 }
 else

@@ -32,9 +32,8 @@ if sel[1] == "N" && key_taunt2
 	scr_soundeffect(sfx_step);
 	noisetype = !noisetype;
 }
-
 // change character
-var lastchar = "A";
+var lastchar = "PT";
 /*
 if (instance_exists(obj_gms) && gms_info_isloggedin() && string_lower(gms_self_name()) == "peic")
 or debug
@@ -53,12 +52,12 @@ if key_down2 && sel[1] != lastchar
 			sel[1] = "N";
 			break;
 		case "N":
-			sel[1] = "V";
-			break;
-		case "V":
 			sel[1] = "S";
 			break;
 		case "S":
+			sel[1] = "V";
+			break;
+		case "V":
 			sel[1] = "M";
 			break;
 		case "M":
@@ -74,7 +73,10 @@ if key_down2 && sel[1] != lastchar
 			sel[1] = "A";
 			break;
 		case "A":
-			sel[1] = "P";
+			sel[1] = "CT";
+			break;
+		case "CT":
+			sel[1] = "PT";
 			break;
 		//case "SN":
 			//if debug
@@ -100,28 +102,34 @@ else if key_up2 && sel[1] != "P"
 	switch sel[1]
 	{
 		case "N":
-			sel[1] = "P";
-			break;
-		case "V":
-			sel[1] = "N";
+			sel[1] = "P";	// Noise To Peppino
 			break;
 		case "S":
-			sel[1] = "V";
+			sel[1] = "N";	// Snick To Noise
+			break;
+		case "V":
+			sel[1] = "S";	// Vigilante To Snick
+			break;
+		case "M":
+			sel[1] = "V";	// Pepperman To Vigilante
+			break;
+		case "D":
+			sel[1] = "M";	// Dougie To Pepperman
 			break;
 		case "SP":
-			sel[1] = "S";
-			break;
-		case "A":
-			sel[1] = "SP";
+			sel[1] = "D";	// Pizzelle To Dougie
 			break;
 		case "SN":
-			sel[1] = "SP";
+			sel[1] = "SP";	// Pizzano To Pizzelle
 			break;
-		case "G":
-			if debug
-				sel[1] = "SN";
-			else
-				sel[1] = "SP";
+		case "A":
+			sel[1] = "SN";	// Angie To Pizzano
+			break;
+		case "CT":
+			sel[1] = "A";	// Chemstoon To Angie
+			break;
+		case "PT":
+			sel[1] = "CT";	// Pisstoon To Chemstoon
 			break;
 	}
 	event_user(0);
