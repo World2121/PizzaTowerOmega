@@ -108,7 +108,7 @@ else
 			
 			if sprite_exists(sprite_index)
 			{
-				if sprite_index != spr_tv_placeholder && sprite_index != spr_tv_placeholderSP && sprite_index != spr_tv_off && sprite_index != spr_tv_offSP && sprite_index != spr_tv_open && sprite_index != spr_tv_openSP
+				if sprite_index != spr_tv_placeholder && sprite_index != spr_tv_placeholderSP && sprite_index != spr_tvCT_placeholder && sprite_index != spr_tv_off && sprite_index != spr_tv_offSP && sprite_index != spr_tvCT_off && sprite_index != spr_tv_open && sprite_index != spr_tv_openSP && sprite_index != spr_tvCT_open
 				{
 					with obj_player1
 						pal_swap_set(spr_palette, paletteselect, false);
@@ -119,9 +119,12 @@ else
 			}
 			
 			// draw combo
-			if global.combo != 0 && sprite_index != spr_tv_open && sprite_index != spr_tv_off && sprite_index != spr_tv_openSP && sprite_index != spr_tv_offSP
+			if global.combo != 0 && sprite_index != spr_tv_open && sprite_index != spr_tv_off && sprite_index != spr_tv_openSP && sprite_index != spr_tv_offSP && sprite_index != spr_tvCT_open && sprite_index != spr_tvCT_off
 			{
-			    draw_sprite_ext(sugary ? spr_tv_comboSP : spr_tv_combo, image_index, 833 + collect_x, 107 + collect_y + hud_posY, 1, 1, 0, c_white, alpha)
+				if character = "CT"
+					draw_sprite_ext(spr_tvCT_combo, image_index, 833 + collect_x, 107 + collect_y + hud_posY, 1, 1, 0, c_white, alpha)
+				else
+					draw_sprite_ext(sugary ? spr_tv_comboSP : spr_tv_combo, image_index, 833 + collect_x, 107 + collect_y + hud_posY, 1, 1, 0, c_white, alpha)
 	    
 				var str = string(global.combo);
 			    if global.combo < 10 && global.combo > -1

@@ -71,6 +71,10 @@ if global.panic && !(room == custom_lvl_room && global.disableescapemusic)
 		// antonball
 		if scr_checkskin(checkskin.p_anton)
 			musplay = mu_antonescape;
+			
+		// pisstoon
+		if scr_checkskin(checkskin.n_piss)
+			musplay = mu_pisstime;
 		
 		// gerome
 		else if global.gameplay != 0 && (global.gerome or global.treasure or instance_exists(obj_geromeanim))

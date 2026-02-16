@@ -321,33 +321,33 @@ function scr_tvspr(char = character)
 		#region CHEMSTOON
 		
 			case "CT":
-				spr_tvidle = spr_tv_idleS
-				spr_tvmach = spr_tv_placeholder
-				spr_tvcrazyrun = spr_tv_placeholder
-				spr_tvidleanim1 = spr_tv_idleanim1S
-				spr_tvidleanim2 = spr_tv_idleanim1S
-				spr_tvvictory = spr_tv_placeholder
-				spr_tvcombos = spr_tv_placeholder
-				spr_tvhurts = spr_tv_placeholder
-				spr_tvtumble = spr_tv_placeholder
-				spr_tvknights = spr_tv_placeholder
-				spr_tvgun = spr_tv_placeholder
-				spr_tvboxxed = spr_tv_placeholder
-				spr_tvclown = spr_tv_placeholder
-				spr_tvmort = spr_tv_placeholder
-				spr_tvfiremouth = spr_tv_placeholder
-				spr_tvcheeseball = spr_tv_placeholder
-				spr_tvbombs = spr_tv_placeholder
-				spr_tvghost = spr_tv_placeholder
-				spr_tvscaredjump = spr_tv_placeholder
-				spr_tvfireass = spr_tv_placeholder
-				spr_tvrocket = spr_tv_placeholder
-				spr_tvbarrel = spr_tv_placeholder
-				spr_tvsquished = spr_tv_placeholder
-				spr_tvcheesepep = spr_tv_placeholder
-				spr_tvgolf = spr_tv_placeholder
+				spr_tvidle = spr_tvCT_idle
+				spr_tvmach = spr_tvCT_placeholder
+				spr_tvcrazyrun = spr_tvCT_placeholder
+				spr_tvidleanim1 = spr_tvCT_idleanim1
+				spr_tvidleanim2 = spr_tvCT_idleanim1
+				spr_tvvictory = spr_tvCT_placeholder
+				spr_tvcombos = spr_tvCT_placeholder
+				spr_tvhurts = spr_tvCT_placeholder
+				spr_tvtumble = spr_tvCT_placeholder
+				spr_tvknights = spr_tvCT_placeholder
+				spr_tvgun = spr_tvCT_placeholder
+				spr_tvboxxed = spr_tvCT_placeholder
+				spr_tvclown = spr_tvCT_placeholder
+				spr_tvmort = spr_tvCT_placeholder
+				spr_tvfiremouth = spr_tvCT_placeholder
+				spr_tvcheeseball = spr_tvCT_placeholder
+				spr_tvbombs = spr_tvCT_placeholder
+				spr_tvghost = spr_tvCT_placeholder
+				spr_tvscaredjump = spr_tvCT_placeholder
+				spr_tvfireass = spr_tvCT_placeholder
+				spr_tvrocket = spr_tvCT_placeholder
+				spr_tvbarrel = spr_tvCT_placeholder
+				spr_tvsquished = spr_tvCT_placeholder
+				spr_tvcheesepep = spr_tvCT_placeholder
+				spr_tvgolf = spr_tvCT_placeholder
 				
-				spr_palette = spr_snickpalette
+				spr_palette = spr_chemspalette
 				break;
 		
 		#endregion

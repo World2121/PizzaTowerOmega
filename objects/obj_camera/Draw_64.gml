@@ -192,6 +192,12 @@ if global.gameplay == 0
 			else
 				hudface = spr_pizzyHUD;
 		}
+		
+		if obj_player1.character == "CT"
+		{
+			hudface = spr_chemsHUD
+		}
+		
 		if _state == states.cotton // temp
 			hudface = spr_pizzyHUDcotton
 		
